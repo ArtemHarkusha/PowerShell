@@ -13,5 +13,3 @@ function Invoke-DatabaseQuery ([Parameter(Mandatory=$true)][string]$connectionSt
     return $ds.Tables
 }
 
-
-
