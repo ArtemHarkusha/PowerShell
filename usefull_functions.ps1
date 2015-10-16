@@ -12,3 +12,4 @@ function Invoke-DatabaseQuery ([Parameter(Mandatory=$true)][string]$connectionSt
     $connection.close()
     return $ds.Tables
 }
+
